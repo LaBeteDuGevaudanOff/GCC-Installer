@@ -79,14 +79,5 @@
     "description": "Набор широко известных header-only библиотек Шона Барретта для работы с картинками, шрифтами и звуком.",
     "download_url": "https://github.com/nothings/stb/archive/refs/heads/master.zip",
     "gcc_flags": "-lm"
-  },
-  {
-    "id": "karel_c",
-    "name": "Karel the Robot C",
-    "version": "1.0.0",
-    "category": "Обучение",
-    "description": "Базовая учебная библиотека робота Карела для изучения языка C.",
-    "download_url": "https://github.com/raysan5/raylib/releases/download/5.0/raylib-5.0_win64_mingw-w64.zip",
-    "gcc_flags": "-lkarel"
   }
 ]
