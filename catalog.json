@@ -1,0 +1,92 @@
+[
+  {
+    "id": "raylib",
+    "name": "Raylib",
+    "version": "5.0.0",
+    "category": "Графика и Игры",
+    "description": "Простая библиотека для разработки 2D/3D игр на C без тяжелых зависимостей.",
+    "download_url": "https://github.com/raysan5/raylib/releases/download/5.0/raylib-5.0_win64_mingw-w64.zip",
+    "gcc_flags": "-lraylib -lopengl32 -lgdi32 -lwinmm"
+  },
+  {
+    "id": "cjson",
+    "name": "cJSON",
+    "version": "1.7.18",
+    "category": "Утилиты / Парсинг",
+    "description": "Ультралегковесный ANSI C парсер и генератор JSON в один заголовочный файл.",
+    "download_url": "https://github.com/DaveGamble/cJSON/archive/refs/tags/v1.7.18.zip",
+    "gcc_flags": "-lcjson"
+  },
+  {
+    "id": "sqlite3",
+    "name": "SQLite 3",
+    "version": "3.45.1",
+    "category": "Базы Данных",
+    "description": "Компактная, надежная встраиваемая бессерверная реляционная СУБД.",
+    "download_url": "https://www.sqlite.org/2024/sqlite-amalgamation-3450100.zip",
+    "gcc_flags": "-lsqlite3"
+  },
+  {
+    "id": "sdl2",
+    "name": "SDL 2",
+    "version": "2.30.0",
+    "category": "Графика и Игры",
+    "description": "Низкоуровневый доступ к аудио, устройствам ввода и графическому конвейеру.",
+    "download_url": "https://github.com/libsdl-org/SDL/releases/download/release-2.30.0/SDL2-devel-2.30.0-mingw.zip",
+    "gcc_flags": "-lmingw32 -lSDL2main -lSDL2"
+  },
+  {
+    "id": "miniaudio",
+    "name": "miniaudio",
+    "version": "0.11.21",
+    "category": "Аудио",
+    "description": "Single-file библиотека воспроизведения и захвата звука (header-only).",
+    "download_url": "https://raw.githubusercontent.com/mackron/miniaudio/master/miniaudio.h",
+    "gcc_flags": "-lm -lpthread"
+  },
+  {
+    "id": "nuklear",
+    "name": "Nuklear GUI",
+    "version": "4.12.1",
+    "category": "Графика и Игры",
+    "description": "Минималистичный Immediate-Mode UI (GUI) на чистом C без сторонних зависимостей.",
+    "download_url": "https://raw.githubusercontent.com/Immediate-Mode-UI/Nuklear/master/nuklear.h",
+    "gcc_flags": "-lm"
+  },
+  {
+    "id": "curl",
+    "name": "libcurl",
+    "version": "8.6.0",
+    "category": "Сеть",
+    "description": "Передача данных по HTTP/HTTPS, FTP, WebSockets.",
+    "download_url": "https://curl.se/windows/dl-8.6.0_1/curl-8.6.0_1-win64-mingw.zip",
+    "gcc_flags": "-lcurl"
+  },
+  {
+    "id": "libuv",
+    "name": "libuv",
+    "version": "1.48.0",
+    "category": "Сеть",
+    "description": "Кроссплатформенный асинхронный ввод-вывод (event loop, сетевые сокеты).",
+    "download_url": "https://dist.libuv.org/dist/v1.48.0/libuv-v1.48.0-dist.zip",
+    "gcc_flags": "-luv -lws2_32 -luserenv -lpsapi -liphlpapi"
+  },
+  {
+    "id": "stb",
+    "name": "stb (image, audio, perlin)",
+    "version": "master",
+    "category": "Утилиты / Парсинг",
+    "description": "Набор широко известных header-only библиотек Шона Барретта для работы с картинками, шрифтами и звуком.",
+    "download_url": "https://github.com/nothings/stb/archive/refs/heads/master.zip",
+    "gcc_flags": "-lm"
+  },
+  {
+    "id": "karel_c",
+    "name": "Karel the Robot C",
+    "version": "1.0.0",
+    "category": "Обучение",
+    "description": "Базовая учебная библиотека робота Карела для изучения языка C.",
+    "download_url": "https://github.com/raysan5/raylib/releases/download/5.0/raylib-5.0_win64_mingw-w64.zip",
+    "gcc_flags": "-lkarel"
+  }
+]
